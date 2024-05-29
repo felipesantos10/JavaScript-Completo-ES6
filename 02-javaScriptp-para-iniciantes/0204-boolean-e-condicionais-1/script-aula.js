@@ -67,3 +67,34 @@ if(!!'') // false
 10 != 15 // true
 10 != '10' // false
 10 !== '10' // true
+
+//OPERADORES LÓGICOS && (e)
+var condicional = (10>=10) && (9<7);
+if(condicional){
+    console.log("verdadeiro");
+} else{
+    console.log("falso");
+}
+
+// OPERADORES LÓGICOS || (ou)
+var condicional2 = (5-5) || (5+5) && (10-2);
+console.log(condicional2);
+
+//SWITCH
+//Com o switch você pode verificar se uma variável é igual à diferentes valores utilizando o case. Caso ela seja igual, você pode fazer alguma coisa e utilizar a palavra chave break; para cancelar a continuação. O valor de default ocorrerá caso nenhuma das anteriores seja verdadeira.
+
+var biblia = "Genesis";
+
+switch (biblia) {
+    case "Genesis":
+        console.log('Primeiro Livro da Biblia')
+        break
+    case "Exodo":
+        console.lof("Segundo Livro da Biblia")
+        break
+    case " Levitico":
+        console.log("Terceiro Livro da Biblia")
+        break
+    default :
+    console.log("Não pertence a livro da Biblia Sagrada")
+}
