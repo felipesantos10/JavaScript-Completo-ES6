@@ -17,7 +17,7 @@ console.log("comidaFvorita");
 comidaFavorita = "pizza";
 console.log(comidaFavorita);
 
-// Declarar 5 variaveis difrentes sem valor;
+// Declarar 5 variaveis diferentes sem valor;
 var matematica, fisica, quimica, biologia, cienciasDaNatureza;
 
 
