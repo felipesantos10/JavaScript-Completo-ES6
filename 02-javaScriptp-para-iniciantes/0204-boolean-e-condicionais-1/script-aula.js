@@ -2,7 +2,7 @@
 
 //CONDICIONAIS IF E ELSE
 //Verificar se uma expressão é verdadeira com if, caso contrário o else será ativado.
-
+/*
 var possuiGraduacao = true;
 
 if(possuiGraduacao) {
@@ -98,3 +98,10 @@ switch (biblia) {
     default :
     console.log("Não pertence a livro da Biblia Sagrada")
 }
+
+*/
+
+var possuiGraduacao = true;
+var possuiMestrado = true;
+ 
+
